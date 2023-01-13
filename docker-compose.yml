@@ -3,7 +3,7 @@ services:
   tomcat:
     image: "tomcat:8"
     ports:
-      - "8083-8085:8080-8082"
+      - "8083-8085:8080"
     volumes:
       - "/mnt/myweb:/usr/local/tomcat/webapps"
 
