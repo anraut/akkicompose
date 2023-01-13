@@ -12,4 +12,4 @@ services:
     ports: 
       - "90:80"
     volumes: 
-      - "/mnt/html:/var/www/html" 
+      - "/mnt/html:/usr/share/nginx/html" 
