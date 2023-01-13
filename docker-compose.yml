@@ -7,4 +7,12 @@ services:
     volumes:
       - "/mnt/myweb:/usr/local/tomcat/webapps"
 
+  nginx:
+    image: "nginx"
+    ports: 
+      - "80=80"
+    volumes: 
+      - "/mnt/html:/var/www/html
+    
+
    
