@@ -12,7 +12,4 @@ services:
     ports: 
       - "80=80"
     volumes: 
-      - "/mnt/html:/var/www/html
-    
-
-   
+      - "/mnt/html:/var/www/html" 
